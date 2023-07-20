@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.flexcontainer {
+  padding: 0 110px;
+  background-color: rgb(0, 112, 191);
+  display: flex;
+
+  align-items: center;
+}
+.flexitem {
+  padding: 10px 20px;
+  text-align: center;
+}
+.flexitem:hover {
+  background-color: #00548f;
+}

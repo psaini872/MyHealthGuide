@@ -1,0 +1,51 @@
+{
+  "date": "",
+  "totalDayNutersion": {
+    "Calories": 0,
+    "Carbs": 0,
+    "Protein": 0,
+    "Fats": 0
+  },
+  "meals": [
+    {
+      "mealTime": "Breakfast",
+      "totalMealNutersion": {
+        "Calories": 0,
+        "Carbs": 0,
+        "Protein": 0,
+        "Fats": 0
+      },
+      "items": []
+    },
+    {
+      "mealTime": "Lunch",
+      "totalMealNutersion": {
+        "Calories": 0,
+        "Carbs": 0,
+        "Protein": 0,
+        "Fats": 0
+      },
+      "items": []
+    },
+    {
+      "mealTime": "Sancks",
+      "totalMealNutersion": {
+        "Calories": 0,
+        "Carbs": 0,
+        "Protein": 0,
+        "Fats": 0
+      },
+      "items": []
+    },
+    {
+      "mealTime": "Dinner",
+      "totalMealNutersion": {
+        "Calories": 0,
+        "Carbs": 0,
+        "Protein": 0,
+        "Fats": 0
+      },
+      "items": []
+    }
+  ]
+}

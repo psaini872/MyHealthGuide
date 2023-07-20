@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*   Navbar   */
+
+/* flexContainer */
+.nav {
+  margin: 10px 130px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* flexitem */
+.logo {
+  color: #00548f;
+  flex-grow: 1;
+}
+.profile {
+  color: black;
+  font-size: 15px;
+  padding: 0 10px;
+}
+.blog,
+.logout {
+  font-size: 15px;
+  padding: 0 10px;
+  color: #00548f;
+  border-left: 1px solid rgb(230, 230, 230);
+}
+/* usre name */
+.name {
+  padding-left: 4px;
+  color: #00548f;
+  font-weight: 600;
+  font-size: 15px;
+}
+/* hover */
+.flexitemh:hover {
+  color: #0072bc;
+}
+.form {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: #0072bc;
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+.lable {
+  color: white;
+  font-weight: 700;
+  font-size: larger;
+}
+.input {
+  display: block;
+  padding: 5px;
+}
+.h3 {
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.togbutton {
+  border: 0;
+  background-color: white;
+}
+.submit {
+  margin: 10px 0;
+  padding: 0 30px;
+  border: black;
+  border-radius: 2px;
+}

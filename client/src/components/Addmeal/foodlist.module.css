@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  /* width: 600px; */
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #8ec9f0;
+  margin-bottom: 3px;
+  border: 2px solid rgb(0, 112, 191);
+  border-radius: 20px;
+}
+.smallcontainer {
+  display: flex;
+  align-items: center;
+}
+.foodName {
+  flex-grow: 1;
+  color: #026bb2;
+}
+.add {
+  color: white;
+  background-color: #8ec9f0;
+  border: 0;
+  font-size: medium;
+  font-weight: bold;
+  /* margin-left: 100px; */
+}
+.foodInfo {
+  display: flex;
+  gap: 10px;
+  margin-right: 0;
+}
+.nutrsion {
+  color: white;
+}

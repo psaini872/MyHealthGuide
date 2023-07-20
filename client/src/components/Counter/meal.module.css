@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  text-align: center;
+  margin: 10px;
+  background-color: #8ec9f0;
+  /* background-color: wheat; */
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+}
+.img {
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+}
+.mealtime {
+  color: #026bb2;
+  margin-bottom: 10px;
+}
+.info {
+  color: #026bb2;
+  padding: 3px 0;
+}
+.add {
+  color: white;
+  margin-top: 10px;
+}
+.add:hover {
+  color: #00548f;
+}

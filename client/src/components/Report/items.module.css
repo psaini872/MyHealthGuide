@@ -1,0 +1,13 @@
+.item {
+  width: 290px;
+  text-align: center;
+  border: 2px solid #0c5077;
+  border-radius: 20px;
+  background-color: #1b78ae;
+}
+.meal {
+  color: white;
+}
+.name {
+  color: #cdeafb;
+}

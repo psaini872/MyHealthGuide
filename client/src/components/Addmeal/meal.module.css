@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  border-radius: 10px;
+  /* text-align: center; */
+  height: 600px;
+  width: 550px;
+  background-color: #8ec9f0;
+}
+.img {
+  border-radius: 10px;
+  width: 550px;
+  height: 310px;
+}
+.mealtime {
+  text-align: center;
+  color: #026bb2;
+}
+.info {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+
+  /* color: #026bb2; */
+}
+.infos {
+  color: white;
+}
+.measure {
+  margin-top: 25px;
+  /* text-align: center; */
+  color: #035388;
+}
+.how {
+  text-align: center;
+}
+.amountflex {
+  justify-content: center;
+  margin-top: 10px;
+  display: flex;
+}
+.serving {
+  /* text-align: center; */
+  width: 30px;
+  height: 27px;
+  border-radius: 5px;
+  border: solid #026bb2;
+}
+.text {
+  color: white;
+  /* text-align: end; */
+  padding-left: 5px;
+  padding-top: 6px;
+  padding-right: 5px;
+  font-size: medium;
+  font-weight: bold;
+}
+.unit {
+  border-radius: 5px;
+  border: solid #026bb2;
+}
+.button {
+}

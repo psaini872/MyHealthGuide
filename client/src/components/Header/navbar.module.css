@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+/*   Navbar   */
+
+/* flexContainer */
+.nav {
+  margin: 10px 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* flexitem */
+.logo {
+  color: #00548f;
+  flex-grow: 1;
+}
+.profile {
+  color: black;
+  font-size: 15px;
+  padding: 0 10px;
+}
+.blog,
+.logout {
+  font-size: 15px;
+  padding: 0 10px;
+  color: #00548f;
+  /* border-left: 1px solid rgb(230, 230, 230);
+   */
+  border: 0;
+  background-color: white;
+  font-weight: bold;
+}
+/* usre name */
+.name {
+  padding-left: 4px;
+  color: #00548f;
+  font-weight: 600;
+  font-size: 15px;
+}
+/* hover */
+.flexitemh:hover {
+  color: #0072bc;
+}

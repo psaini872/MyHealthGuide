@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 30px 100px 0 100px;
+  display: flex;
+  justify-content: center;
+}
+.item1 {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+.searchedFood {
+  margin-top: 10px;
+}

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  justify-content: center;
+  margin: 20px 50px 0 90px;
+}
+.h1 {
+  margin-top: 0;
+  color: #0b5680;
+  display: inline;
+  font-size: 21px;
+  font-weight: bold;
+}
+.datecontainer {
+  border-radius: 3px;
+  font-size: 17px;
+  margin: 0 0 0 5px;
+  padding: 4px 20px 4px 20px;
+  background-color: #1c73a5;
+  color: white;
+}

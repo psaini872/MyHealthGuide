@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  justify-content: center;
+  margin: 20px 50px 0 90px;
+}
+.h1 {
+  margin-top: 0;
+  color: #0b5680;
+  display: inline;
+  font-size: 21px;
+  font-weight: bold;
+}
+.h2 {
+  color: #0b5680;
+  font-size: 21px;
+  font-weight: bold;
+  margin-right: 100px;
+}
+.container2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  border: 2px solid #0c5077;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h3 {
+  color: #0b5680;
+}
+.container3 {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.item {
+  width: 290px;
+  text-align: center;
+  border: 2px solid #0c5077;
+}
