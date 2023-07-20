@@ -1,70 +1,87 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# MYHEALTHGUIDE
 
-## Available Scripts
+“My Nutrition Guide” is a web application that allows users to track their daily food intake and
+monitor their nutritional goals. The app utilizes an external API to provide users with real-time information about the nutritional value of the food they consume , and a custom user database API to store and retrieve user data.
+I also used the JSON WEB TOKEN to handle user authentication and ensure secure transmission of user data .
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+1. Install my-project with npm
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+  cd MyHealthGuide
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Install all the dependency .
 
-### `npm test`
+```bash
+   npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Modify your config.env file .
 
-### `npm run build`
+4. Run Server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+   npm start
+```
+5. Run the FrontEnd
+```bash
+   cd client 
+   npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    
+## Environment Variables
 
-### `npm run eject`
+To run this project, you will need to add the following environment variables to your .env file
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`MongoDB URl`
+`JWT_SECRET`
+`JWT_SECRET`
+`JWT_EXPIRE`
+`JWT_COOKIE_EXPIRES_IN`
+`Appkey`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Client:** React, Redux 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Server:** Node, Express, MongoDB
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## API USE
 
-### Analyzing the Bundle Size
+- Edamam Food API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+- [Documentation](https://developer.edamam.com/edamam-docs-recipe-api)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Nutrition Tracker
+- User aAuthentication
+- Daily Intake Report
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Screenshots
+![ss1](https://github.com/psaini872/MyHealthGuide/assets/95680839/fc4ca8e9-1cdf-4979-9672-c74e60c0cfb1)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![ss2](https://github.com/psaini872/MyHealthGuide/assets/95680839/504af8a3-f962-4f4a-a405-31151e7b3e54)
+
+## Authors
+
+- [@psaini872](https://github.com/psaini872)
+
+
+## Support
+
+For support, email pranshusaini87@gmail.com
+
